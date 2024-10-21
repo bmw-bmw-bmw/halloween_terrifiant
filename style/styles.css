@@ -1,0 +1,106 @@
+body {
+    font-family: 'Creepster', cursive; /* Assurez-vous d'importer cette police depuis Google Fonts */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/spooky2.jpg); /* Remplacez par votre image de fond */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffcc00; /* Couleur personnalisée pour les liens */
+    text-decoration: none; /* Supprime le soulignement */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4444; /* Couleur au survol */
+}
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffcc00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff4444;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+form button:hover {
+    background: #cc0000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
